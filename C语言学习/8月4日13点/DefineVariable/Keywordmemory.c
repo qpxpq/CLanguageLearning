@@ -15,13 +15,13 @@
 
 int main()
 {
-    char cha = 'a';	    //声明字符型变量或函数
-    char chb = 0;	    //声明字符型变量或函数
-    double b = 78.6;	//声明双精度变量或函数
-    float  c = 35.4;	//声明浮点型变量或函数
-    int    d = 58;	    //声明整型变量或函数
-    long   e = 123;	    //声明长整型变量或函数   
-    short  f = 19;	    //声明短整型变量或函数
+    char cha = 'a';	    //声明字符型变量或函数  赋值范围-128~127
+    char chb = 0;	    //声明字符型变量或函数  赋值范围-128~127
+    double b = 78.6;	//声明双精度变量或函数  赋值范围双精度类型，精度是17位有效数字，取值范围是10的-308次方到10的308次方
+    float  c = 35.4;	//声明浮点型变量或函数  赋值范围单精度类型,精度是8位有效数字，取值范围是10的-38次方到10的38次方
+    int    d = 58;	    //声明整型变量或函数    赋值范围-32768～32767
+    long   e = 123;	    //声明长整型变量或函数  赋值范围-9223372036854775807ll - 1 ~ 9223372036854775807ll
+    short  f = 19;	    //声明短整型变量或函数  赋值范围-32768~32767
     printf("%d %d %d %d %d %d %d\n", sizeof(cha), sizeof(chb), sizeof(b), sizeof(c), sizeof(d), sizeof(e), sizeof(f));
     printf("%d %d %d %d %d %d\n", sizeof(char), sizeof(double), sizeof(float), sizeof(int), sizeof(long), sizeof(short));
     return 0;
