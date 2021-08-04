@@ -29,7 +29,7 @@ int main()
     //unsigned float的取值范围：（4字节）0~2^32 - 1
     //unsigned int的取值范围：（4字节）0~2^32 - 1
     //unsigned long的取值范围：（4字节）0~2^32 - 1
-    //unsigned long的取值范围：（4字节）0~2^16 - 1 
+    //unsigned short的取值范围：（4字节）0~2^16 - 1 
     printf("%u %u %u %u %u %u %u\n",cha,chb,b,c,d,e,f);
     
     return 0;
