@@ -19,10 +19,18 @@ int main()
     char chb = 0;	    //声明字符型变量或函数  赋值范围-128~127
     double b = 78.6;	//声明双精度变量或函数  赋值范围双精度类型，精度是17位有效数字，取值范围是10的-308次方到10的308次方
     float  c = 35.4;	//声明浮点型变量或函数  赋值范围单精度类型,精度是8位有效数字，取值范围是10的-38次方到10的38次方
-    int    d = 58;	    //声明整型变量或函数    赋值范围-32768～32767
-    long   e = 123;	    //声明长整型变量或函数  赋值范围-9223372036854775807ll - 1 ~ 9223372036854775807ll
+    int    d = 58;	    //声明整型变量或函数    赋值范围 -2147483648～+2147483647
+    long   e = 123;	    //声明长整型变量或函数  赋值范围 -2147483648～+2141483647
     short  f = 19;	    //声明短整型变量或函数  赋值范围-32768~32767
     printf("%d %d %d %d %d %d %d\n", sizeof(cha), sizeof(chb), sizeof(b), sizeof(c), sizeof(d), sizeof(e), sizeof(f));
     printf("%d %d %d %d %d %d\n", sizeof(char), sizeof(double), sizeof(float), sizeof(int), sizeof(long), sizeof(short));
+    //unsigned char的取值范围：（1字节）0~2^8-1(0~255)
+    //unsigned double的取值范围：（8字节）0~2^64 - 1
+    //unsigned float的取值范围：（4字节）0~2^32 - 1
+    //unsigned int的取值范围：（4字节）0~2^32 - 1
+    //unsigned long的取值范围：（4字节）0~2^32 - 1
+    //unsigned long的取值范围：（4字节）0~2^16 - 1 
+    printf("%u %u %u %u %u %u %u\n",cha,chb,b,c,d,e,f);
+    
     return 0;
 }
