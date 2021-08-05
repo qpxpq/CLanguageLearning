@@ -26,11 +26,11 @@ int main(){
     stu5.class = 4;
     stu5.score = 120;
     //读取结构体成员的值
-    printf("%s的学号是%d，今年的成绩是%.1f！\n",stu1.name,stu1.class,stu1.score);
-    printf("%s的学号是%d，今年的成绩是%.1f！\n",stu2.name,stu2.class,stu2.score);
-    printf("%s的学号是%d，今年的成绩是%.1f！\n",stu3.name,stu3.class,stu3.score);
-    printf("%s的学号是%d，今年的成绩是%.1f！\n",stu4.name,stu4.class,stu4.score);
-    printf("%s的学号是%d，今年的成绩是%.1f！\n",stu5.name,stu5.class,stu5.score);
+    printf("%s的班级是%d，成绩是%.1f！\n",stu1.name,stu1.class,stu1.score);
+    printf("%s的班级是%d，成绩是%.1f！\n",stu2.name,stu2.class,stu2.score);
+    printf("%s的班级是%d，成绩是%.1f！\n",stu3.name,stu3.class,stu3.score);
+    printf("%s的班级是%d，成绩是%.1f！\n",stu4.name,stu4.class,stu4.score);
+    printf("%s的班级是%d，成绩是%.1f！\n",stu5.name,stu5.class,stu5.score);
 
     return 0;
 }
