@@ -30,7 +30,10 @@ int main()
     //unsigned int的取值范围：（4字节）0~2^32 - 1
     //unsigned long的取值范围：（4字节）0~2^32 - 1
     //unsigned short的取值范围：（4字节）0~2^16 - 1 
-    printf("%u %u %u %u %u %u %u\n",cha,chb,b,c,d,e,f);
+    //printf("%u %u %u %u %u %u %u\n",cha,chb,b,c,d,e,f);//转无符号类型，错误
+    printf("%d %d %d %d %d %d %d\n", sizeof(cha), sizeof(chb), sizeof(b), sizeof(c), sizeof(d), sizeof(e), sizeof(f));
+    printf("%c %d %.2lf %.2f %d %ld %d\n",cha,chb,b,c,d,e,f);
+    //转无符号类型打印char字母用%c，数字用%d；double使用%lf,.2保留两位小数；float使用%f，.2保留两位小数；int使用%d；long使用%ld；short使用%d；
     
     return 0;
 }
