@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "c:\\Users\\25688\\Desktop\\8.4\\CLanguageLearning\\C语言学习\\8月5日18",
+      "environment": [],
+      "program": "c:\\Users\\25688\\Desktop\\8.4\\CLanguageLearning\\C语言学习\\8月5日18\\build\\Debug\\outDebug",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "gdb",
+      "miDebuggerPath": "D:\\MinGW\\bin\\gdb.exe",
+      "externalConsole": false
+    }
+  ]
+}
